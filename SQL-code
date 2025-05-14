@@ -90,3 +90,4 @@ ranked_data AS (
     DENSE_RANK() OVER (ORDER BY total_country_account_cnt DESC) AS rank_total_country_account_cnt,
     DENSE_RANK() OVER (ORDER BY total_country_sent_cnt DESC) AS rank_total_country_sent_cnt
   FROM aggregated_data
+  WHERE rank_total_country_account_cnt <= 10 OR rank_total_country_sent_cnt <= 10;
