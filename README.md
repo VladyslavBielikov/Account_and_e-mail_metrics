@@ -54,15 +54,4 @@ Returns data **only for countries** ranked in the **top 10** by either:
 - Total account count  
 - Total sent messages  
 
-## Use Cases
-
-- Identify countries with the most active user base
-- Track marketing email effectiveness by region
-- Support business decisions with country-specific engagement metrics
-
-## Technologies Used
-
-- Google BigQuery
-- Standard SQL (using CTEs and window functions)
-
 
