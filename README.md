@@ -5,7 +5,7 @@ This project contains a BigQuery SQL query designed to analyze user account acti
 - Total number of active accounts
 - Total number of emails sent
 
-## 📊 Dataset Overview
+## Dataset Overview
 
 The query uses the following tables from the `DA` dataset:
 
@@ -65,7 +65,4 @@ Returns data **only for countries** ranked in the **top 10** by either:
 - Google BigQuery
 - Standard SQL (using CTEs and window functions)
 
----
-
-> This analysis helps prioritize market focus based on both user activity and email performance metrics.
 
